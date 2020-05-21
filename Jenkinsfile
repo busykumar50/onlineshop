@@ -12,7 +12,7 @@ node{
         sh 'sudo docker-compose up -d'
     }
     
-    stage('Push Docker Image to dhub')
+    stage('Push Docker Image to hub')
     {
         sh 'sudo docker push busykumar50/ecomdep'
     }
